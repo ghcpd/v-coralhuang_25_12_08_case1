@@ -1,0 +1,97 @@
+820234338: I am a programmer and I want to develop system about SDG 4 quality education using python code with gui. 
+The user will sign in their accounts before opening the home website and if the user don't have an account 
+they will create a account to sign in, 
+after signing in the ser can view modules and download in the home page 
+(can you put three module examples
+
+
+GitHub Copilot: I'll start by writing a short plan (todo list), then create the project files: `main.py`, `README.md`, and three example module files under `modules/`. After that I'll run a quick syntax check. 
+
+Created 5 todos
+
+Now I'll create the project files and module placeholders. 
+
+Using "Apply Patch"
+
+Now I'll add `main.py`, `README.md`, and three example module files under `modules/` in the project folder. 
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Using "Apply Patch"
+
+
+```
+
+```
+
+
+Using "Apply Patch"
+
+
+```
+
+```
+I'll run a quick Python syntax check on main.py to make sure it's importable. 
+
+Ran terminal command: python -m py_compile main.py; echo $LASTEXITCODE
+
+Starting: *Implement GUI logic* (2/5)
+
+Progress update: I scaffolded the project, added GUI app code, created three module examples, and ran a syntax check.
+
+**What I added**
+- main.py: A Tkinter app implementing:
+  - Sign Up (creates user in `users.db` with SHA-256 hashed password)
+  - Sign In (authenticates against `users.db`)
+  - Home screen listing modules from modules with Open and Download actions
+  - Log Out
+- modules with three example modules:
+  - `literacy_module.txt`
+  - `teacher_training_module.txt`
+  - `digital_learning_module.txt`
+- README.md: Quick run instructions.
+
+**How to run**
+- From the project folder, run:
+```powershell
+python main.py
+```
+
+**Notes & assumptions**
+- The app uses local SQLite `users.db` in the working directory.
+- Passwords are hashed with SHA-256 (suitable for demo; for production use a salted algorithm like bcrypt).
+- Module files are plain `.txt` placed in the modules folder (I've added three examples).
+- The GUI is implemented with Tkinter, which is included with standard Python installations.
+
+**Next steps (I can do any of these)**
+- Add password-confirmation and basic password strength checks on sign-up.
+- Implement password hashing with `bcrypt` for stronger security (would add dependency).
+- Replace simple dialogs with full-screen forms inside the main window for better UX.
+- Add user profile and module progress tracking in the database.
+- Package into a single executable with PyInstaller.
+
+Would you like me to implement stronger password hashing (`bcrypt`) and add a password confirmation field on sign-up now?
+
+Made changes.

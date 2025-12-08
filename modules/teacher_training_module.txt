@@ -1,0 +1,9 @@
+Module: Teacher Training
+
+Description:
+Practical teacher training materials focusing on student-centered pedagogy, classroom management, and formative assessment.
+
+Contents:
+- Lesson modeling
+- Observation templates
+- Professional development plan
