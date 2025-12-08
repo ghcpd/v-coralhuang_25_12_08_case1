@@ -1,0 +1,10 @@
+"messageid": "56ea0ace-beec-58bd-9cc0-cbf2f9512643"
+
+I want to embedd AI into my application. My application has two components: A UI and a REST API. A user can create projects, which are similar like workshops. Other users can join these projects. My goal is to embedd AI for various different features. Important for me is to rely on a less user input as possible. The two features, that I want to start with is:
+
+* The generation of project ideas: The AI will get access to the collection of existing projects as well a possible collection of submission of project wishes by participant users. The AI will return a strucutred list of project ideas following the naming style of exisitng projects or of the defined ruleset.
+* Improving the project descriptions: User should be able to use AI to improve their project description. From an UI perspective, they will be able to select a collection of improvements "statements" without providing custom input. The improved AI sugestion can be reviewed by a user before getting applied. Durig review, a user can select certain improvement "modules". 
+
+Modules are predefined AI instructions enforced on API side. The UI should communicate to the REST API the selected "modules". The API transform the selection into a set of instuctions for the AI. the UI should be able to receive a list of available modules per feature. Modules can be grouped. 
+
+Please help me to design a collection of REST API endpoints implement.
