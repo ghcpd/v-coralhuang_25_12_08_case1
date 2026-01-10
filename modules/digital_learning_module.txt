@@ -1,0 +1,9 @@
+Module: Digital Learning Tools
+
+Description:
+Introduction to using low-cost digital tools to support learning, including blended-learning activities and open educational resources.
+
+Contents:
+- Low-bandwidth digital activities
+- Curation of open resources
+- Student project ideas

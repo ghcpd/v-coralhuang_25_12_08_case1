@@ -1,0 +1,9 @@
+Module: Literacy Basics
+
+Description:
+This module introduces foundational literacy topics: phonics, reading comprehension strategies, and simple lesson plans for early grades.
+
+Contents:
+- Phonics activities
+- Guided reading tips
+- Assessment checklist
